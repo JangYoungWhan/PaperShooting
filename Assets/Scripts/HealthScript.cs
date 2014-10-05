@@ -33,7 +33,7 @@ public class HealthScript : MonoBehaviour {
 		ShotScript shot = otherCollider.gameObject.GetComponent<ShotScript> ();
 		if (shot != null) {
 			// Avoid friendly fire
-			if (shot.isEnermyShot != isEnemy) {
+			if (shot.isEnemyShot != isEnemy) {
 				Damage (shot.damage);
 
 				// Destroy the shot

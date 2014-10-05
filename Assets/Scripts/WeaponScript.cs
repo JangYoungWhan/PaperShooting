@@ -42,7 +42,7 @@ public class WeaponScript : MonoBehaviour {
 			ShotScript shot = shotTransform.gameObject.GetComponent<ShotScript>();
 			if(shot != null)
 			{
-				shot.isEnermyShot = isEnemy;
+				shot.isEnemyShot = isEnemy;
 			}
 
 			// Make the weapon shot always towards it

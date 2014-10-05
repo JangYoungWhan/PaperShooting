@@ -11,12 +11,12 @@ public class ShotScript : MonoBehaviour {
 	/// <summary>
 	/// Projectile damage player or enermies?
 	/// </summary>
-	public bool isEnermyShot = false;
+	public bool isEnemyShot = false;
 
 	// Use this for initialization
 	void Start () {
 		// Limited time to live to avoid any leak
-		Destroy (gameObject, 10); // 20sec
+		Destroy (gameObject, 5); // 5sec
 	}
 	
 	// Update is called once per frame
